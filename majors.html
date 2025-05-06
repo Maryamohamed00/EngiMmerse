@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngiMmerse - Choose Your Major</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="EngiMmerse Logo" class="logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="majors.html" class="active">Majors</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content majors-page">
+        <h1 class="page-title animate-pop">Choose Your Major</h1>
+
+        <div class="year-selection animate-fade">
+            <h2>Select Your Academic Year</h2>
+            <div class="year-buttons">
+                <button class="year-btn active" data-year="1">Year 1</button>
+                <button class="year-btn" data-year="2">Year 2</button>
+                <button class="year-btn" data-year="3">Year 3</button>
+                <button class="year-btn" data-year="4">Year 4</button>
+            </div>
+        </div>
+
+        <div class="majors-grid animate-slide-up">
+            <h2>Available Majors</h2>
+            <div class="majors-container">
+                <div class="major-card" data-major="computer-comm">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Computer & Communication</h3>
+                    <p>Explore computer systems and communication networks</p>
+                    <a href="computer-comm.html" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="electrical">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Electrical Engineering</h3>
+                    <p>Study of electrical systems and power generation</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="mechanical">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Mechanical Engineering</h3>
+                    <p>Design and analysis of mechanical systems</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="civil">
+                    <i class="fas fa-building"></i>
+                    <h3>Civil Engineering</h3>
+                    <p>Infrastructure design and construction</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="chemical">
+                    <i class="fas fa-flask"></i>
+                    <h3>Chemical Engineering</h3>
+                    <p>Chemical processes and industrial applications</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="biomedical">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Biomedical Engineering</h3>
+                    <p>Medical technology and healthcare solutions</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="aerospace">
+                    <i class="fas fa-plane"></i>
+                    <h3>Aerospace Engineering</h3>
+                    <p>Aircraft and spacecraft design</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+
+                <div class="major-card" data-major="industrial">
+                    <i class="fas fa-industry"></i>
+                    <h3>Industrial Engineering</h3>
+                    <p>Optimization of complex systems</p>
+                    <a href="#" class="major-link">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>All credits to Maya and Maryam © 2025 EngiMmerse</p>
+    </footer>
+</body>
+
+</html>
